@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'GODOFWAR';
+    src: url(../fontes/GODOFWAR.TTF)
+}
+
+/* font-family: 'Raleway', sans-serif; */
+.nome {
+    font-family: 'GODOFWAR';
+}
