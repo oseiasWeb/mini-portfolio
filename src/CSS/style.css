@@ -4,6 +4,47 @@
 }
 
 /* font-family: 'Raleway', sans-serif; */
-.nome {
+/* .nome {
     font-family: 'GODOFWAR';
+} */
+
+body{
+    background-image: url(../imagens/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'Raleway', sans-serif;
+    color: #f3f3f3;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.cartao{
+    background-color: black;
+    width: 390px;
+    border: 2px solid rgb(7, 92, 161);
+    border-radius: 10px;
+}
+
+.abas img{
+    width: 80px;
+}
+
+.cartao .minhas-informacoes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'GODOFWAR';
+    font-size: 15px;
+}
+
+.cartao .minhas-informacoes img{
+    width: 96px;
+    height: 96px;
 }
