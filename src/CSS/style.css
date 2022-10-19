@@ -102,6 +102,11 @@ body{
 .informacoes-abas .informacao{
     min-height: 260px;
     padding: 15px;
+    display: none;
+}
+
+.informacoes-abas .informacao.selecionado{
+    display: block;
 }
 
 .informacoes-abas .sub-titulo{
@@ -119,4 +124,52 @@ body{
 .informacoes-abas .descricao span{
     color: #07f5a9;
     font-weight: bold;
+}
+
+.redes-sociais, .lista-projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    max-height: 190px;
+    overflow-y: auto;
+}
+
+.redes-sociais li a{
+    width: 250px;
+    display: block;
+    color: #f8f9fc;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.redes-sociais .curriculo{
+    background-color: #07e29d;
+}
+
+.redes-sociais .linkedin{
+    background-color: #197bac;
+}
+
+.redes-sociais .github{
+    background-color: #353434;
+}
+
+.redes-sociais li a:hover, .lista-projetos li a:hover{
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.lista-projetos li a{
+    background-color: #07e29d;
+    width: 300px;
+    display: block;
+    color: #f8f9fc;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 15px;
 }
