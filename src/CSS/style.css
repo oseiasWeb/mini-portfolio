@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'GODOFWAR';
-    src: url(../fontes/GODOFWAR.TTF)
+    font-family: 'Pumpkin';
+    src: url(../fontes/Pumpkin\ Spice.otf)
+         url(../fontes/Pumpkin\ Spice.ttf)   
 }
 
 /* font-family: 'Raleway', sans-serif; */
@@ -9,13 +10,13 @@
 } */
 
 body{
-    background-image: url(../imagens/fundo2.jpg);
+    background-image: url(../imagens/fundo.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
     font-family: 'Raleway', sans-serif;
-    color: #f3f3f3;
+    color: black;
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -25,14 +26,11 @@ body{
 }
 
 .cartao{
-    background-color: black;
-    width: 390px;
-    border: 2px solid rgb(7, 92, 161);
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 370px;
+    border: 3px solid rgb(4, 252, 177);
     border-radius: 10px;
-}
-
-.abas img{
-    width: 80px;
+    overflow: hidden;
 }
 
 .cartao .minhas-informacoes{
@@ -40,11 +38,85 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'GODOFWAR';
-    font-size: 15px;
+    gap: 10px;
 }
 
 .cartao .minhas-informacoes img{
-    width: 96px;
-    height: 96px;
+    border-radius: 50px;
+    border: 3px solid rgb(22, 240, 167);
+    width: 100px;
+    height: 100px;
+}
+
+.cartao .minhas-informacoes .nome{
+    font-family: 'Pumpkin';
+    font-size: 26px;
+    color: aquamarine;
+}
+
+.cartao .minhas-informacoes .cargo{
+    font-family: 'Pumpkin';
+    font-size: 20px;
+    color: #f8f9fc;
+}
+
+.cartao .conteudo{
+    margin-top: 15px;
+}
+
+.cartao .abas{
+    display: flex;
+}
+
+.cartao .abas .aba{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.sub-titulo {
+    font-family: 'Pumpkin';
+    font-size: 20px;
+}
+
+.cartao .abas img{
+    width: 35px;
+    border-radius: 50px;
+}
+
+.cartao .abas .aba.selecionado{
+    background-color: white;
+}
+
+.cartao .informacoes-abas{
+    background-color: white;
+}
+
+.cartao .abas .aba:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+}
+
+.informacoes-abas .informacao{
+    min-height: 260px;
+    padding: 15px;
+}
+
+.informacoes-abas .sub-titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacoes-abas .descricao{
+    font-size: 18px;
+    max-height: 235px;
+    overflow-y: auto;
+}
+
+.informacoes-abas .descricao span{
+    color: #07f5a9;
+    font-weight: bold;
 }
