@@ -12,4 +12,4 @@ Portfólio de apresentação pessoal, incluindo resumo breve sobre mim, redes so
 Existem 3 abas onde temos informações e links para contatos: Sobre, minhas redes e projetos
 
 ## Link da Página
-Em breve... 
+https://oseiasweb.github.io/mini-portfolio/
