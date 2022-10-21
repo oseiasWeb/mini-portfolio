@@ -69,7 +69,7 @@ body{
 }
 
 .cartao .abas .aba{
-    width: 33.3%;
+    width: 33.33%;
     display: flex;
     justify-content: center;
     padding: 10px 0;
@@ -96,7 +96,7 @@ body{
 }
 
 .cartao .abas .aba:hover{
-    background-color: rgba(255, 255, 255, 0.479);
+    background-color: rgba(109, 209, 176, 0.993);
 }
 
 .informacoes-abas .informacao{
@@ -159,7 +159,7 @@ body{
 }
 
 .redes-sociais li a:hover, .lista-projetos li a:hover{
-    opacity: 0.6;
+    opacity: 0.1;
     transition: opacity 0.3s ease-in-out;
 }
 
