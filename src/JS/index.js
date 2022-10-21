@@ -9,19 +9,27 @@ abas.forEach(aba => {
             return;
         }
 
-        const abaSelecionada = document.querySelector(".aba.selecionado");
-        abaSelecionada.classList.remove("selecionado")
-
-        aba.classList.add("selecionado");
-
-        const informacaoSelecionada = document.querySelector(".informacao.selecionado");
-        informacaoSelecionada.classList.remove("selecionado");
-
-        // Mostrar conteúdo da aba selecionada
-        const idElementoDeInformacoesAba = `informacao-${aba.id}`
-
-        const informacaoAserMostratada = document.getElementById(idElementoDeInformacoesAba)
-        informacaoAserMostratada.classList.add("selecionado")
+        selecionarAba(aba);
+    
+        apresentarInformacoesAba(aba);
 
     });
 });
+
+function selecionarAba(aba){
+    const abaSelecionada = document.querySelector(".aba.selecionado");
+    abaSelecionada.classList.remove("selecionado")
+
+    aba.classList.add("selecionado");
+}
+
+function apresentarInformacoesAba(aba){
+    const informacaoSelecionada = document.querySelector(".informacao.selecionado");
+    informacaoSelecionada.classList.remove("selecionado");
+
+    // Mostrar conteúdo da aba selecionada
+    const idElementoDeInformacoesAba = `informacao-${aba.id}`
+
+    const informacaoAserMostratada = document.getElementById(idElementoDeInformacoesAba)
+    informacaoAserMostratada.classList.add("selecionado")
+}
