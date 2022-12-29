@@ -12,8 +12,8 @@ Este é um pequeno portfólio de apresentação das minhas habilidades como dev 
 <h2 align="center">*** Como Utilizar ***</h2>
 <p>Existem 3 abas onde temos informações e links para contatos: Sobre, minhas redes e projetos. Abaixo temos um pequeno gif com as funcionalidades do sistema:</p>
 
-<img src="./src/imagens/animacao.gif" alt="Imagem Capa home" title="Tech Brasil"><p>Gif - funcionalidades do sistema</p>
+<img align="center" src="./src/imagens/animacao.gif" alt="Imagem Capa home" title="Tech Brasil"><p>Gif - funcionalidades do sistema</p>
 
 <h2 align="center">*** Link da página ***</h2>
-<p>Abaixo temos o link da página para viaulização:</p>
-🔗 https://oseiasweb.github.io/mini-portfolio/
+<p>Abaixo temos o link da página para visualização e testes:</p>
+🔗 <a href="https://oseiasweb.github.io/mini-portfolio/" target="_blank" class="linkedin">Mini Portfólio</a>
