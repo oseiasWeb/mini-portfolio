@@ -16,4 +16,10 @@ Este é um pequeno portfólio de apresentação das minhas habilidades como dev 
 
 <h2 align="center">*** Link da página ***</h2>
 <p>Abaixo temos o link da página para visualização e testes:</p>
-🔗 <a href="https://oseiasweb.github.io/mini-portfolio/" target="_blank" class="linkedin">Mini Portfólio</a>
+🔗 <a href="https://oseiasweb.github.io/mini-portfolio/" target="_blank" class="linkedin">Mini Portfólio</a><br>
+
+<br>
+<h2 align="center">*** Status Projeto ***</h2>
+<p align="center">
+<img src="./src/imagens/finalizado.png"/>
+</p>
